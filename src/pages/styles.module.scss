@@ -1,0 +1,19 @@
+@import "../styles/mixins.scss";
+@import "../styles/colors.scss";
+
+.title {
+  font-size: 22px;
+  color: $primary;
+  padding-left: 11px;
+}
+.sub-title {
+  font-size: 12px;
+  opacity: 0.7;
+  padding: 20px 0 0 11px;
+}
+.content {
+  padding-top: 20px;
+}
+.link {
+  @include Link;
+}

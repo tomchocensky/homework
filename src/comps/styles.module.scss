@@ -1,0 +1,14 @@
+@import "../styles/mixins.scss";
+@import "../styles/colors.scss";
+
+.todo {
+  border: 1px solid $primary;
+  opacity: 0.7;
+  padding: 10px;
+  &:hover {
+    opacity: 1;
+  }
+  .link {
+    @include Link;
+  }
+}
